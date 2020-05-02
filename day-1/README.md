@@ -63,4 +63,4 @@ Then, when start and end eventually meets, we will obtain the first bad version.
 There's one caveat when setting `mid = start + end / 2` though as it could result in an integer overflow.
 A mathematically equivalent way of getting mid is `mid = start + end - start / 2`, which will circumvent the integer overflow problem.
 
-The implemented solution is [here](firstbadversion.js).
+The implemented solution is [here](firstBadVersion.js).
