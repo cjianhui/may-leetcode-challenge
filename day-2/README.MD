@@ -28,6 +28,7 @@ It is not difficult to see that we can put all the types of stone represented in
 Then, while looping through `S`, we increment the count of jewels whenever it exists in the set.
 
 Time Complexity: `O(J + S)`
+
 Space Complexity: `O(J)`
 
 The implemented solution is [here](jewelsAndStones.js).

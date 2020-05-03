@@ -27,7 +27,8 @@ Then 4 is the first bad version.
 On first glance, a naive approach will be to check all versions from 1 to n and return the first version that is bad.
 
 Time Complexity: `O(n)`
-Space Complexity: `O(n)`
+
+Space Complexity: `O(1)`
 
 #### Approach 2 (Binary Search)
 
@@ -62,5 +63,9 @@ Then, when start and end eventually meets, we will obtain the first bad version.
 
 There's one caveat when setting `mid = start + end / 2` though as it could result in an integer overflow.
 A mathematically equivalent way of getting mid is `mid = start + end - start / 2`, which will circumvent the integer overflow problem.
+
+Time Complexity: `O(log n)`
+
+Space Complexity: `O(1)`
 
 The implemented solution is [here](firstBadVersion.js).
