@@ -35,10 +35,7 @@ However since, JavaScript bitwise operators convert their operands to 32-bit sig
 To do so, we can construct a bit mask of the same length as our number in binary representation and `&` the mask and the result of `~num` together.
 
 ```
-~5 => 11111111111111111111111111111010
-mask => 111
-~5 & mask => 00000000000000000000000000000010
-=> 2
+~5          => 11111111111111111111111111111010
+mask        => 00000000000000000000000000000111
+~5 & mask   => 00000000000000000000000000000010 => 2
 ```
-
-The implemented solution can be found [here](numberComplement.js)

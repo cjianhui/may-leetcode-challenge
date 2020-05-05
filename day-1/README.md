@@ -67,5 +67,3 @@ A mathematically equivalent way of getting mid is `mid = start + end - start / 2
 Time Complexity: `O(log n)`
 
 Space Complexity: `O(1)`
-
-The implemented solution is [here](firstBadVersion.js).

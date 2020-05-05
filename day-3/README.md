@@ -24,5 +24,3 @@ Then, we can just iterate through the letters in the ransom note string and chec
 Time Complexity: `O(M + N)`, where the length of the ransom note is `M` and the length of the magazine letters is `N`.
 
 Space Complexity: `O(N)`
-
-The implemented solution is [here](ransomNote.js)

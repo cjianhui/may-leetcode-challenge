@@ -30,5 +30,3 @@ Then, while looping through `S`, we increment the count of jewels whenever it ex
 Time Complexity: `O(J + S)`
 
 Space Complexity: `O(J)`
-
-The implemented solution is [here](jewelsAndStones.js).
