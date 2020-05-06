@@ -30,7 +30,7 @@ This question is the same as 1009: https://leetcode.com/problems/complement-of-b
 
 We can use the bitwise operator NOT (`~`), to give us the complement of the integer.
 
-However since, JavaScript bitwise operators convert their operands to 32-bit signed integers, we have to strip the leading `1s` that result from the NOT operator.
+However, since JavaScript bitwise operators convert their operands to 32-bit signed integers, we have to strip the leading `1s` that result from the NOT operator.
 
 To do so, we can construct a bit mask of the same length as our number in binary representation and `&` the mask and the result of `~num` together.
 
@@ -39,3 +39,6 @@ To do so, we can construct a bit mask of the same length as our number in binary
 mask        => 00000000000000000000000000000111
 ~5 & mask   => 00000000000000000000000000000010 => 2
 ```
+
+Time Complexity: `O(n)`\
+Space Complexity: `O(n)`
