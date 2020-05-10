@@ -11,3 +11,5 @@ This repository will contain the solutions for the May Leetcoding Challenge alon
 - [Day 5](./day-5/)
 - [Day 6](./day-6/)
 - [Day 7](./day-7/)
+- [Day 8](./day-8/)
+- [Day 9](./day-9/)
